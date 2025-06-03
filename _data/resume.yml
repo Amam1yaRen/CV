@@ -16,23 +16,29 @@ contact: #联系方式连接等3~5行
 
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
-- type: education #类别为ID
+- type:  #类别为ID
   name: 教育经历 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: 长沙民政职业技术学院（专科）
     duration: "2018年9月 - 2021年6月"
     detail: 软件开发
 
-- type: skills
-  # name: "技能"
+- type: 
+  name: "证书技能"
   content:
-  - title: 编程语言
-    items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+  - title: 证书
+    items: CISP-PTE 注册信息安全专业人员渗透测试工程师
+
+  - title: 个人技能
+    summary: 
+    1、熟悉常见的web安全漏洞原理和危害，能够使用手工以及工具进行漏洞验证；
+    2、可以独立完成外网资产暴露面调查和渗透测试报告，基础红队打点等；
+    3、熟悉各种安全工具使用(sqlmap、nmap、burpsuite、yakit、awvs等)和环境配置，熟练掌握虚拟机搭建各种靶场；
+    4、熟悉应急响应基本流程，能对常见的病毒事件、入侵事件进行分析和处置；
+    5、熟悉安全厂家（启明星辰、深信服、绿盟）漏洞扫描器的使用，进行漏扫和基线检查；
+    6、了解各种安全设备的使用，态势感知、WAF、IPS、IDS等，除基础使用外可以根据手册进行简单的故障排查和修复；
+    7、了解启明星辰和深信服的安全服务流程，有做过深信服的渗透和应急实验，可以完成深度威胁狩猎报告；
+    8、获得过漏洞盒子2022年10月公益SRC月榜第三；
 
 - type: experience
   name: 经验
