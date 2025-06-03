@@ -40,12 +40,12 @@ main: #简历主要内容，
     7、了解启明星辰和深信服的安全服务流程，有做过深信服的渗透和应急实验，可以完成深度威胁狩猎报告；
     8、获得过漏洞盒子2022年10月公益SRC月榜第三；
 
-- type: experience
-  name: 经验
+- type: 
+  name: 工作经历
   content:
-  - title: 职位
-    sub: 某某公司
-    duration: "xxxx年xx月 - yyyy年yy月"
+  - title: 工作岗位
+    sub: 北京启明星辰信息安全技术有限公司
+    duration: "2022年12月 - 至今"
     tags:
     - 标签
     summary: 职务或者工作总结(自动折叠)
